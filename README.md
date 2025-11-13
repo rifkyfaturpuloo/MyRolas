@@ -1,6 +1,6 @@
 # SMKN 12 Surabaya – The Real Arts School
 
-Website statis multi-halaman untuk mempresentasikan SMK Negeri 12 Surabaya sebagai pusat keunggulan seni dan industri kreatif. Seluruh konten—dari profil sekolah, daftar jurusan, galeri multimedia, berita, hingga PPDB—dirancang dengan antarmuka modern, animasi halus, serta dukungan mode terang/gelap.
+Website statis multi-halaman untuk mempresentasikan SMK Negeri 12 Surabaya sebagai pusat keunggulan seni dan industri kreatif. Seluruh konten dari profil sekolah, daftar jurusan, galeri multimedia, berita, hingga PPDB dirancang dengan antarmuka modern, animasi halus, serta dukungan mode terang/gelap.
 
 ## Sorotan Utama
 - Landing page hero dengan video profil YouTube, statistik singkat, dan CTA profil + pendaftaran.
