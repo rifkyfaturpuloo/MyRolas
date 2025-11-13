@@ -27,7 +27,7 @@ Website statis multi-halaman untuk mempresentasikan SMK Negeri 12 Surabaya sebag
 - Integrasi pihak ketiga: embed YouTube, Google Maps iframe, FormSubmit untuk pengiriman form.
 
 ## Cara Menjalankan
-1. Clone repo: `git clone https://github.com/<username>/<repo>.git`
+1. Clone repo: `git clone https://github.com/rifkyfaturpuloo/MyRolas/<repo>.git`
 2. Buka folder proyek: `cd smkn12-surabaya`
 3. Jalankan secara lokal lewat server statis (opsional) `python -m http.server 8000` lalu akses `http://localhost:8000`
    - Atau cukup buka `index.html` langsung di browser modern.
