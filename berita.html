@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Berita &amp; Pengumuman | SMKN 12 Surabaya</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="scripts.js"></script>
+  </head>
+  <body data-theme="light" class="page-news">
+    <div class="background-orbs" aria-hidden="true">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <header class="site-header">
+      <div class="container">
+        <a class="logo-link" href="index.html">
+          <img src="assets/images/logo-smkn12.png" alt="Logo SMKN 12 Surabaya" />
+          <div class="logo-text">
+            <strong>SMKN 12 Surabaya</strong>
+            <span>The Real Arts School</span>
+          </div>
+        </a>
+        <button class="nav-toggle" aria-label="Buka menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="header-right">
+          <button class="theme-toggle" type="button" aria-label="Aktifkan mode gelap">
+            <span class="icon sun" aria-hidden="true">☀</span>
+            <span class="icon moon" aria-hidden="true">🌙</span>
+          </button>
+          <nav class="site-nav">
+            <ul>
+              <li><a href="index.html">Beranda</a></li>
+              <li><a href="profil.html">Profil</a></li>
+              <li><a href="jurusan.html">Jurusan</a></li>
+              <li><a href="galeri.html">Galeri</a></li>
+              <li><a class="active" href="berita.html">Berita</a></li>
+              <li><a class="cta" href="pendaftaran.html">Pendaftaran</a></li>
+              <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <p class="badge">Berita &amp; Pengumuman</p>
+          <h1>Info Terbaru SMKN 12 Surabaya</h1>
+          <p class="lead">Kegiatan, prestasi, dan pengumuman resmi terbaru untuk siswa dan orang tua.</p>
+        </div>
+      </section>
+
+      <section class="section news-filters">
+        <div class="container">
+          <div class="filter-controls">
+            <button class="filter-btn active" data-filter="all">Semua</button>
+            <button class="filter-btn" data-filter="news">Berita</button>
+            <button class="filter-btn" data-filter="announce">Pengumuman</button>
+          </div>
+          <div class="news-list">
+            <article class="news-card" data-type="news">
+              <img src="assets/images/jurusan/film.png" alt="Festival Film" loading="lazy" />
+              <div>
+                <span class="tag tag-news">Berita</span>
+                <h3>Festival Film Pelajar Nasional</h3>
+                <p>Tim produksi film SMKN 12 menyabet juara umum dengan karya “Rhapsody of Motion”.</p>
+                <time datetime="2025-08-12">12 Agustus 2025</time>
+                <a href="berita-detail.html?id=festival-film">Selengkapnya</a>
+              </div>
+            </article>
+            <article class="news-card" data-type="announce">
+              <img src="assets/images/jurusan/pplg.jpg" alt="PPDB" loading="lazy" />
+              <div>
+                <span class="tag tag-announce">Pengumuman</span>
+                <h3>PPDB 2025/2026 Resmi Dibuka</h3>
+                <p>Simak persyaratan, jadwal, dan link pendaftaran daring untuk calon peserta didik baru.</p>
+                <time datetime="2025-06-01">1 Juni 2025</time>
+                <a href="berita-detail.html?id=ppdb-2025">Selengkapnya</a>
+              </div>
+            </article>
+            <article class="news-card" data-type="news">
+              <img src="assets/images/jurusan/musik.png" alt="Konser Musik" loading="lazy" />
+              <div>
+                <span class="tag tag-news">Berita</span>
+                <h3>Konser Kolaborasi Musik &amp; Tari</h3>
+                <p>Kolaborasi besar lintas jurusan menghadirkan pengalaman pertunjukan imersif.</p>
+                <time datetime="2025-05-18">18 Mei 2025</time>
+                <a href="berita-detail.html?id=konser-kolaborasi">Selengkapnya</a>
+              </div>
+            </article>
+            <article class="news-card" data-type="announce">
+              <img src="assets/images/jurusan/kayu.png" alt="Magang Industri" loading="lazy" />
+              <div>
+                <span class="tag tag-announce">Pengumuman</span>
+                <h3>Program Magang Industri Kreatif</h3>
+                <p>Pendaftaran magang untuk siswa kelas XII dibuka dengan slot terbatas.</p>
+                <time datetime="2025-04-30">30 April 2025</time>
+                <a href="berita-detail.html?id=magang-kreatif">Selengkapnya</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div>
+          <strong>SMK Negeri 12 Surabaya</strong>
+          <p>Jl. Siwalankerto Permai No. 1, Wonocolo, Surabaya 60236</p>
+        </div>
+        <div class="footer-links">
+          <a href="https://smkn12surabaya.sch.id" target="_blank" rel="noreferrer">Website Resmi</a>
+          <a href="https://www.instagram.com/smkn12sby" target="_blank" rel="noreferrer">Instagram</a>
+          <a href="https://www.youtube.com/@smkn12surabaya" target="_blank" rel="noreferrer">YouTube</a>
+        </div>
+        <p class="copyright">© 2025 SMKN 12 Surabaya. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

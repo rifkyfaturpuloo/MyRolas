@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontak &amp; Lokasi | SMKN 12 Surabaya</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="scripts.js"></script>
+  </head>
+  <body data-theme="light" class="page-contact">
+    <div class="background-orbs" aria-hidden="true">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <header class="site-header">
+      <div class="container">
+        <a class="logo-link" href="index.html">
+          <img src="assets/images/logo-smkn12.png" alt="Logo SMKN 12 Surabaya" />
+          <div class="logo-text">
+            <strong>SMKN 12 Surabaya</strong>
+            <span>The Real Arts School</span>
+          </div>
+        </a>
+        <button class="nav-toggle" aria-label="Buka menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="header-right">
+          <button class="theme-toggle" type="button" aria-label="Aktifkan mode gelap">
+            <span class="icon sun" aria-hidden="true">☀</span>
+            <span class="icon moon" aria-hidden="true">🌙</span>
+          </button>
+          <nav class="site-nav">
+            <ul>
+              <li><a href="index.html">Beranda</a></li>
+              <li><a href="profil.html">Profil</a></li>
+              <li><a href="jurusan.html">Jurusan</a></li>
+              <li><a href="galeri.html">Galeri</a></li>
+              <li><a href="berita.html">Berita</a></li>
+              <li><a class="cta" href="pendaftaran.html">Pendaftaran</a></li>
+              <li><a class="active" href="kontak.html">Kontak</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <p class="badge">Kontak</p>
+          <h1>Hubungi &amp; Kunjungi Kami</h1>
+          <p class="lead">Tim admisi akan menjawab pertanyaan seputar jurusan, fasilitas, dan PPDB.</p>
+        </div>
+      </section>
+
+      <section class="section contact-grid">
+        <div class="container split">
+          <div class="contact-card">
+            <h2>Informasi Kontak</h2>
+            <ul class="contact-list">
+              <li>
+                <strong>Alamat</strong>
+                <span>Jl. Siwalankerto Permai No. 1, Wonocolo, Surabaya 60236</span>
+              </li>
+              <li>
+                <strong>Telepon</strong>
+                <a href="tel:+62318405396">+62 31 840 5396</a>
+              </li>
+              <li>
+                <strong>Email</strong>
+                <a href="mailto:info@smkn12surabaya.sch.id">info@smkn12surabaya.sch.id</a>
+              </li>
+              <li>
+                <strong>Media Sosial</strong>
+                <a href="https://www.instagram.com/smkn12sby" target="_blank" rel="noreferrer">Instagram</a> ·
+                <a href="https://www.youtube.com/@smkn12surabaya" target="_blank" rel="noreferrer">YouTube</a>
+              </li>
+              <li>
+                <strong>Jam Operasional</strong>
+                <span>Senin–Jumat · 07.00 – 15.30 WIB</span>
+              </li>
+            </ul>
+          </div>
+
+          <form class="contact-form" action="https://formsubmit.co/info@smkn12surabaya.sch.id" method="POST">
+            <h2>Kirim Pesan</h2>
+            <label>
+              Nama Lengkap
+              <input type="text" name="nama" placeholder="Nama Anda" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="email@contoh.com" required />
+            </label>
+            <label>
+              Pesan
+              <textarea name="pesan" rows="4" placeholder="Tulis pertanyaan atau kebutuhan Anda" required></textarea>
+            </label>
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_next" value="https://smkn12surabaya.sch.id/terima-kasih" />
+            <button class="btn primary" type="submit">Kirim Pesan</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="section map-section">
+        <div class="container">
+          <h2>Peta Lokasi</h2>
+          <div class="map-frame">
+            <iframe
+              title="Peta SMKN 12 Surabaya"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3951.4398656269877!2d112.73445017500325!3d-7.949407092086893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fc77b3d5e4bb%3A0xe13a93cf6bde363!2sSMKN%2012%20Surabaya!5e0!3m2!1sid!2sid!4v1700000000000!5m2!1sid!2sid"
+              loading="lazy"
+              allowfullscreen
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div>
+          <strong>SMK Negeri 12 Surabaya</strong>
+          <p>Jl. Siwalankerto Permai No. 1, Wonocolo, Surabaya 60236</p>
+        </div>
+        <div class="footer-links">
+          <a href="https://smkn12surabaya.sch.id" target="_blank" rel="noreferrer">Website Resmi</a>
+          <a href="https://www.instagram.com/smkn12sby" target="_blank" rel="noreferrer">Instagram</a>
+          <a href="https://www.youtube.com/@smkn12surabaya" target="_blank" rel="noreferrer">YouTube</a>
+        </div>
+        <p class="copyright">© 2025 SMKN 12 Surabaya. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

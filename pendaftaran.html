@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pendaftaran Online | SMKN 12 Surabaya</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="scripts.js"></script>
+  </head>
+  <body data-theme="light" class="page-admission">
+    <div class="background-orbs" aria-hidden="true">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <header class="site-header">
+      <div class="container">
+        <a class="logo-link" href="index.html">
+          <img src="assets/images/logo-smkn12.png" alt="Logo SMKN 12 Surabaya" />
+          <div class="logo-text">
+            <strong>SMKN 12 Surabaya</strong>
+            <span>The Real Arts School</span>
+          </div>
+        </a>
+        <button class="nav-toggle" aria-label="Buka menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="header-right">
+          <button class="theme-toggle" type="button" aria-label="Aktifkan mode gelap">
+            <span class="icon sun" aria-hidden="true">☀</span>
+            <span class="icon moon" aria-hidden="true">🌙</span>
+          </button>
+          <nav class="site-nav">
+            <ul>
+              <li><a href="index.html">Beranda</a></li>
+              <li><a href="profil.html">Profil</a></li>
+              <li><a href="jurusan.html">Jurusan</a></li>
+              <li><a href="galeri.html">Galeri</a></li>
+              <li><a href="berita.html">Berita</a></li>
+              <li><a class="active cta" href="pendaftaran.html">Pendaftaran</a></li>
+              <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <p class="badge">PPDB Online</p>
+          <h1>Daftar Jadi Bagian The Real Arts School</h1>
+          <p class="lead">Ikuti langkah PPDB 2025/2026 secara daring dengan mudah, responsif, dan ramah mobile.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#form-ppdb">Isi Formulir</a>
+            <a class="btn ghost" href="https://ppdb.jatimprov.go.id" target="_blank" rel="noreferrer">PPDB Jatim</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section steps">
+        <div class="container">
+          <header class="section-header">
+            <div>
+              <p class="eyebrow">Alur Pendaftaran</p>
+              <h2>Step-by-Step</h2>
+            </div>
+          </header>
+          <div class="step-grid">
+            <article>
+              <span>1</span>
+              <h3>Persiapan</h3>
+              <p>Kumpulkan rapor SMP/MTs, portofolio seni, dan kartu identitas.</p>
+            </article>
+            <article>
+              <span>2</span>
+              <h3>Registrasi Akun</h3>
+              <p>Buat akun PPDB Jatim &amp; pilih SMKN 12 sebagai pilihan utama.</p>
+            </article>
+            <article>
+              <span>3</span>
+              <h3>Isi Formulir</h3>
+              <p>Lengkapi formulir internal sekolah di bawah ini untuk verifikasi cepat.</p>
+            </article>
+            <article>
+              <span>4</span>
+              <h3>Seleksi</h3>
+              <p>Ikuti tes minat bakat/portofolio sesuai jurusan pilihan.</p>
+            </article>
+            <article>
+              <span>5</span>
+              <h3>Pengumuman</h3>
+              <p>Cek hasil seleksi melalui laman resmi atau email.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section admission-form" id="form-ppdb">
+        <div class="container split">
+          <div>
+            <h2>Formulir Pendaftaran Internal</h2>
+            <p>Form ini membantu kami mempersiapkan proses verifikasi dokumen dan jadwal tes.</p>
+            <ul class="checklist">
+              <li>Pilih maksimal dua jurusan.</li>
+              <li>Unggah tautan portofolio (Drive/YouTube/Behance).</li>
+              <li>Pastikan email aktif untuk menerima jadwal tes.</li>
+            </ul>
+          </div>
+          <form class="card" method="POST" action="https://formsubmit.co/ppdb@smkn12surabaya.sch.id">
+            <label>
+              Nama Lengkap
+              <input type="text" name="nama" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" required />
+            </label>
+            <label>
+              Nomor HP
+              <input type="tel" name="phone" required />
+            </label>
+            <label>
+              Jurusan Pilihan 1
+              <select name="jurusan1" required>
+                <option value="">Pilih jurusan</option>
+                <option value="Animasi">Animasi</option>
+                <option value="Desain Komunikasi Visual">Desain Komunikasi Visual</option>
+                <option value="Produksi Film">Produksi Film</option>
+                <option value="Seni Musik">Seni Musik</option>
+                <option value="Seni Tari">Seni Tari</option>
+                <option value="Seni Teater">Seni Teater</option>
+                <option value="Seni Karawitan">Seni Karawitan</option>
+                <option value="Seni Pedalangan">Seni Pedalangan</option>
+                <option value="Kriya Kayu">Kriya Kayu</option>
+                <option value="Kriya Kulit">Kriya Kulit</option>
+                <option value="Kriya Logam dan Perhiasan">Kriya Logam dan Perhiasan</option>
+                <option value="Batik dan Tekstil">Batik dan Tekstil</option>
+                <option value="Seni Lukis">Seni Lukis</option>
+                <option value="Desain Interior dan Teknik Furnitur">Desain Interior dan Teknik Furnitur</option>
+                <option value="Pengembangan Perangkat Lunak dan Gim">Pengembangan Perangkat Lunak dan Gim</option>
+              </select>
+            </label>
+            <label>
+              Jurusan Pilihan 2
+              <select name="jurusan2">
+                <option value="">Pilih jurusan</option>
+                <option value="Animasi">Animasi</option>
+                <option value="Desain Komunikasi Visual">Desain Komunikasi Visual</option>
+                <option value="Produksi Film">Produksi Film</option>
+                <option value="Seni Musik">Seni Musik</option>
+                <option value="Seni Tari">Seni Tari</option>
+                <option value="Seni Teater">Seni Teater</option>
+                <option value="Seni Karawitan">Seni Karawitan</option>
+                <option value="Seni Pedalangan">Seni Pedalangan</option>
+                <option value="Kriya Kayu">Kriya Kayu</option>
+                <option value="Kriya Kulit">Kriya Kulit</option>
+                <option value="Kriya Logam dan Perhiasan">Kriya Logam dan Perhiasan</option>
+                <option value="Batik dan Tekstil">Batik dan Tekstil</option>
+                <option value="Seni Lukis">Seni Lukis</option>
+                <option value="Desain Interior dan Teknik Furnitur">Desain Interior dan Teknik Furnitur</option>
+                <option value="Pengembangan Perangkat Lunak dan Gim">Pengembangan Perangkat Lunak dan Gim</option>
+              </select>
+            </label>
+            <label>
+              Tautan Portofolio (Opsional)
+              <input type="url" name="portfolio" placeholder="https://drive.google.com/..." />
+            </label>
+            <label>
+              Pesan / Pertanyaan
+              <textarea name="message" rows="4"></textarea>
+            </label>
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_next" value="https://smkn12surabaya.sch.id/terima-kasih" />
+            <button class="btn primary" type="submit">Kirim Formulir</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="section faq">
+        <div class="container">
+          <header class="section-header">
+            <div>
+              <p class="eyebrow">FAQ PPDB</p>
+              <h2>Pertanyaan Umum</h2>
+            </div>
+          </header>
+          <div class="accordion">
+            <article>
+              <button aria-expanded="false">Apakah wajib memiliki portofolio?</button>
+              <div class="accordion-content">
+                <p>Portofolio dianjurkan untuk jurusan seni pertunjukan &amp; rupa. Jika belum ada, Anda dapat mengunggah karya latihan atau rekaman perform sederhana.</p>
+              </div>
+            </article>
+            <article>
+              <button aria-expanded="false">Bagaimana teknis tes minat bakat?</button>
+              <div class="accordion-content">
+                <p>Tes dilakukan hybrid: pengumpulan video daring dan sesi on-site untuk jurusan tertentu seperti tari, musik, teater, dan animasi.</p>
+              </div>
+            </article>
+            <article>
+              <button aria-expanded="false">Bisakah lintas jurusan saat memilih?</button>
+              <div class="accordion-content">
+                <p>Boleh memilih dua jurusan berbeda. Namun pastikan Anda siap mengikuti tes sesuai ketentuan masing-masing jurusan.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div>
+          <strong>SMK Negeri 12 Surabaya</strong>
+          <p>Jl. Siwalankerto Permai No. 1, Wonocolo, Surabaya 60236</p>
+        </div>
+        <div class="footer-links">
+          <a href="https://smkn12surabaya.sch.id" target="_blank" rel="noreferrer">Website Resmi</a>
+          <a href="https://www.instagram.com/smkn12sby" target="_blank" rel="noreferrer">Instagram</a>
+          <a href="https://www.youtube.com/@smkn12surabaya" target="_blank" rel="noreferrer">YouTube</a>
+        </div>
+        <p class="copyright">© 2025 SMKN 12 Surabaya. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

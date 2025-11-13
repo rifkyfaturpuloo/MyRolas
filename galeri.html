@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galeri Multimedia | SMKN 12 Surabaya</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="scripts.js"></script>
+  </head>
+  <body data-theme="light" class="page-gallery">
+    <div class="background-orbs" aria-hidden="true">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <header class="site-header">
+      <div class="container">
+        <a class="logo-link" href="index.html">
+          <img src="assets/images/logo-smkn12.png" alt="Logo SMKN 12 Surabaya" />
+          <div class="logo-text">
+            <strong>SMKN 12 Surabaya</strong>
+            <span>The Real Arts School</span>
+          </div>
+        </a>
+        <button class="nav-toggle" aria-label="Buka menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="header-right">
+          <button class="theme-toggle" type="button" aria-label="Aktifkan mode gelap">
+            <span class="icon sun" aria-hidden="true">☀</span>
+            <span class="icon moon" aria-hidden="true">🌙</span>
+          </button>
+          <nav class="site-nav">
+            <ul>
+              <li><a href="index.html">Beranda</a></li>
+              <li><a href="profil.html">Profil</a></li>
+              <li><a href="jurusan.html">Jurusan</a></li>
+              <li><a class="active" href="galeri.html">Galeri</a></li>
+              <li><a href="berita.html">Berita</a></li>
+              <li><a class="cta" href="pendaftaran.html">Pendaftaran</a></li>
+              <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <p class="badge">Galeri</p>
+          <h1>Dokumentasi Kegiatan &amp; Karya</h1>
+          <p class="lead">Jelajahi foto dan video yang menangkap semangat kreatif di lingkungan SMKN 12 Surabaya.</p>
+        </div>
+      </section>
+
+      <section class="section gallery-tabs">
+        <div class="container">
+          <div class="tab-controls">
+            <button class="tab-btn active" data-tab="foto">Galeri Foto</button>
+            <button class="tab-btn" data-tab="video">Galeri Video</button>
+          </div>
+
+          <div class="tab-panel active" id="tab-foto">
+            <div class="masonry-grid">
+              <figure data-full="assets/images/jurusan/tari.jpg">
+                <img src="assets/images/jurusan/tari.jpg" alt="Pentas Tari Kontemporer" loading="lazy" />
+                <figcaption>Pentas Tari Kontemporer 2025</figcaption>
+              </figure>
+              <figure data-full="assets/images/jurusan/batik.png">
+                <img src="assets/images/jurusan/batik.png" alt="Workshop Batik" loading="lazy" />
+                <figcaption>Workshop Batik Eco-Print</figcaption>
+              </figure>
+              <figure data-full="assets/images/jurusan/musik.png">
+                <img src="assets/images/jurusan/musik.png" alt="Orkestra Sekolah" loading="lazy" />
+                <figcaption>Orkestra Siswa</figcaption>
+              </figure>
+              <figure data-full="assets/images/jurusan/animasi.png">
+                <img src="assets/images/jurusan/animasi.png" alt="Studio Animasi" loading="lazy" />
+                <figcaption>Studio Animasi 3D</figcaption>
+              </figure>
+              <figure data-full="assets/images/jurusan/lukis.png">
+                <img src="assets/images/jurusan/lukis.png" alt="Pameran Seni Rupa" loading="lazy" />
+                <figcaption>Pameran Seni Rupa</figcaption>
+              </figure>
+              <figure data-full="assets/images/jurusan/film.png">
+                <img src="assets/images/jurusan/film.png" alt="Lokakarya Produksi Film" loading="lazy" />
+                <figcaption>Lokakarya Produksi Film</figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <div class="tab-panel" id="tab-video">
+            <div class="video-grid">
+              <article class="video-card" data-video="https://www.youtube.com/embed/VXJmqaDhywQ?si=dfVppQ3kzAWA12K4">
+                <div class="thumb">
+                  <img src="assets/images/jurusan/film.png" alt="Video Profil Sekolah" loading="lazy" />
+                  <span class="play-icon">▶</span>
+                </div>
+                <div>
+                  <h3>Video Profil SMKN 12 Surabaya</h3>
+                  <p>Gambaran lengkap fasilitas dan suasana belajar.</p>
+                </div>
+              </article>
+              <article class="video-card" data-video="https://www.youtube.com/embed/ZhqTq1h1-demo">
+                <div class="thumb">
+                  <img src="assets/images/jurusan/musik.png" alt="Video Musik" loading="lazy" />
+                  <span class="play-icon">▶</span>
+                </div>
+                <div>
+                  <h3>Konser Orkestra Pelajar</h3>
+                  <p>Kolaborasi lintas jurusan musik, tari, dan teater.</p>
+                </div>
+              </article>
+              <article class="video-card" data-video="https://www.youtube.com/embed/G4demoAnimasi">
+                <div class="thumb">
+                  <img src="assets/images/jurusan/animasi.png" alt="Video Animasi" loading="lazy" />
+                  <span class="play-icon">▶</span>
+                </div>
+                <div>
+                  <h3>Showreel Animasi 3D</h3>
+                  <p>Karya unggulan siswa jurusan animasi.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="media-lightbox" aria-hidden="true">
+      <div class="media-backdrop"></div>
+      <div class="media-content">
+        <button class="lightbox-close" aria-label="Tutup">×</button>
+        <img alt="" />
+        <iframe title="Video" allowfullscreen allow="autoplay; encrypted-media"></iframe>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div>
+          <strong>SMK Negeri 12 Surabaya</strong>
+          <p>Jl. Siwalankerto Permai No. 1, Wonocolo, Surabaya 60236</p>
+        </div>
+        <div class="footer-links">
+          <a href="https://smkn12surabaya.sch.id" target="_blank" rel="noreferrer">Website Resmi</a>
+          <a href="https://www.instagram.com/smkn12sby" target="_blank" rel="noreferrer">Instagram</a>
+          <a href="https://www.youtube.com/@smkn12surabaya" target="_blank" rel="noreferrer">YouTube</a>
+        </div>
+        <p class="copyright">© 2025 SMKN 12 Surabaya. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
